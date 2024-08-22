@@ -2,7 +2,6 @@ import {Pressable, Text, View} from 'react-native';
 import {styles} from '../../../config';
 import {useCounterStore} from '../../store/counter-store';
 import {useNavigation} from '@react-navigation/native';
-import {counterEvent} from 'react-native/Libraries/Performance/Systrace';
 import {useEffect} from 'react';
 
 export const SettingScreen = () => {
